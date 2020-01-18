@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+
+  <body>
+      <h2>Custom signage</h2>
+      <div id="cost">Cost: $5 per tile</div>
+
+    <script>
+        // create vars
+        var price = 5;
+        var quantity = 14;
+        var total;
+
+        // calculate the total
+        total = price * quantity;
+
+        // write on the page
+        var el = document.getElementById("cost");
+        el.textContent = '$' + total;
+
+
+        //document.write(total);
+
+    </script>
+    
+  </body>
+
+</html>
